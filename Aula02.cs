@@ -10,6 +10,22 @@ public class Program
         Console.WriteLine(numero);
         // Forma simplificada
         numero += 3; Console.WriteLine(numero);
-        // Subtração numero -= 2; Console.WriteLine(numero); // Multiplicação double resultado = numero * 2; Console.WriteLine(resultado); // Divisão resultado = numero / 2; Console.WriteLine(resultado); // Módulo (resto da divisão) int resto = numero % 2; Console.WriteLine(resto);
+        
+        // Subtração 
+        numero = 5 - 2;  
+        numero -= 2; 
+        Console.WriteLine(numero);
+        
+        // Multiplicação
+        double resultado = numero * 2;
+        Console.WriteLine(resultado);
+        
+        // Divisão
+        resultado = numero / 2;
+        Console.WriteLine(resultado);
+        
+        // Módulo (resto da divisão)
+        int resto = numero % 2;
+        Console.WriteLine(resto);
     }
 }
